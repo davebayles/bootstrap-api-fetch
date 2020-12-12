@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Title</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="./assets/SVGs/Logo.svg" /></a>
+        <div class="navbar__utility">
+          <a href="#"><img src="./assets/SVGs/icn_search.svg" /></a>
+          <a href="#"><img src="./assets/SVGs/icn_person.svg" /></a>
+        </div>
+      </div>
+    </nav>
+    <div id="main" class="main">
+      <div class="loading">
+        <div class="loading__spinner">
+          <img src="./assets/loading_spinner.gif" />
+        </div>
+        <div class="loading__text">Please wait a moment...</div>
+      </div>
+      <div id="results" class="results d-none"></div>
+      <section id="search" class="search mb5 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <div class="search-start">
+                <h1 class="text-light">Search Any Email Address</h1>
+                <p class="search__subtitle">
+                  <strong class="text-primary">Start Here</strong> - Look up the
+                  owner's name, photos and online profiles. See what you find!
+                </p>
+              </div>
+              <div class="search-again">
+                <h1 class="text-light">Can’t Find The Right Person?</h1>
+                <p class="search__subtitle">
+                  <strong class="text-primary">Try Again</strong> - Make a new
+                  search
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <form class="needs-validation mb-4" novalidate>
+            <div class="form-row">
+              <div class="col-xs-12 col-md-8">
+                <input
+                  type="email"
+                  class="form-control input__mega"
+                  id="validationEmail"
+                  placeholder="EMAIL"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please add a valid email address.
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <button type="submit" class="btn__mega" style="width: 100%">
+                  GO!
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="results__secure">
+            <img src="./assets/SVGs/lock.svg" class="mr-3" /> Enter Any Email
+            Address. They won't be notified.
+          </div>
+        </div>
+      </section>
+      <section id="intro" class="intro">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-12">
+              <h2 class="h1 text-center mb-4">Reverse Email Lookup</h2>
+              <p class="intro__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">1</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">2</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">3</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">4</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">5</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <div class="list__number">6</div>
+                </div>
+                <div class="col">
+                  <div class="list__content">
+                    <div class="list__title">Lorem Ipsum</div>
+                    <div class="list__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between">
+          <span class="my-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </span>
+
+          <ul class="d-flex flex-nowrap">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
