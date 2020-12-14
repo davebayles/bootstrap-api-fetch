@@ -50,7 +50,7 @@ function getResults(event) {
 
   let email = document.getElementById('validationEmail').value;
 
-  fetch(`https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${email}`)
+  fetch(`/api/v1/records.json?email=${email}`)
     .then(function (response) {
       if (!response.ok) {
         throw new Error('HTTP error, status = ' + response.status);
